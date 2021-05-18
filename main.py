@@ -80,7 +80,7 @@ with open(fname, 'w') as f:
 
     # == GENERAL SETTINGS ==
 
-    f.write("bids_root = '{}'".format(bids_root)+'\n')
+    f.write("bids_root = '{}'".format(deriv_root)+'\n')
     f.write("deriv_root = '{}'".format(deriv_root)+'\n')
     #For freesurfer
     '''
