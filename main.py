@@ -84,7 +84,7 @@ fname = 'mne_config.py'
 with open(fname, 'w') as f: 
 
     # == GENERAL SETTINGS ==
-    if config['rename_events']:     f.write("rename_events = {}".format(config['rename_events'])+'\n')
+    if config['rename_events']:     f.write("rename_events = {}".format(rename_events)+'\n')
 
     f.write("bids_root = '{}'".format(bids_root)+'\n')
     f.write("deriv_root = '{}'".format(deriv_root)+'\n')
