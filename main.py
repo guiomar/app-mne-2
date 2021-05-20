@@ -76,6 +76,7 @@ noise_cov = 'emptyroom'
 
 '''
 rename_events = {'Smiley': 'Emoji','Button': 'Switch'}
+conditions = ['Auditory', 'Visual', 'Auditory/Left', 'Auditory/Right']
 
 # Create new MNE config .py file
 
@@ -85,6 +86,7 @@ with open(fname, 'w') as f:
 
     # == GENERAL SETTINGS ==
     f.write("rename_events = {}".format(rename_events)+'\n')
+    f.write("conditions = {}".format(conditions)+'\n')
 
     f.write("bids_root = '{}'".format(bids_root)+'\n')
     f.write("deriv_root = '{}'".format(deriv_root)+'\n')
