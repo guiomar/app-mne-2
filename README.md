@@ -11,7 +11,8 @@ This Brainlife App analyses MEG (and EEG) data at the sensor-level using MNE-BID
 - Aurore Bussalb (aurore.bussalb@icm-institute.org)
 - Soichi Hayashi (hayashis@iu.edu)
 
-## References
+## Citations
+We kindly ask that you cite the following articles when publishing papers and code using this code. 
 
 *MEEG Pipeline:*  
 Jas M, Larson E, Engemann DA, Leppäkangas J, Taulu S, Hämäläinen M, Gramfort A.  
@@ -36,3 +37,5 @@ Scientific Data, 6, 103, 2019. https://doi.org/10.1038/s41597-019-0104-8
 Gramfort A, Luessi M, Larson E, Engemann DA, Strohmeier D, Brodbeck C, Goj R, Jas M, Brooks T, Parkkonen L, and Hämäläinen MS.  
 **MEG and EEG data analysis with MNE-Python**  
 Frontiers in Neuroscience, 7(267):1–13, 2013. https://doi.org/10.3389/fnins.2013.00267
+
+#### MIT Copyright (c) 2020 brainlife.io The University of Texas at Austin and Indiana University
