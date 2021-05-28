@@ -134,25 +134,6 @@ with open(fname, 'w') as f:
 
     f.close() 
 
-'''
-    # SOURCES
-
-    # General Settings
-    if config['run_source_estimation']: f.write("run_source_estimation = {}".format(config['run_source_estimation'])+'\n')
-
-    # BEM surface
-    if config['bem_mri_images']:        f.write("bem_mri_images = {}".format(config['bem_mri_images'])+'\n')
-    if config['recreate_bem']:          f.write("recreate_bem = {}".format(config['recreate_bem'])+'\n')
-
-    # Source space & forward solution
-    if config['mri_t1_path_generator']: f.write("mri_t1_path_generator = {}".format(config['mri_t1_path_generator'])+'\n')
-    if config['spacing']:               f.write("spacing = {}".format(config['spacing'])+'\n')
-    if config['mindist']:               f.write("mindist = {}".format(config['mindist'])+'\n')
-
-    # Inverse solution
-    if config['inverse_method']:    f.write("inverse_method = {}".format(config['inverse_method'])+'\n')
-    if config['noise_cov']:         f.write("noise_cov = {}".format(config['noise_cov'])+'\n')
-'''
 
 
 # Run mne-study-template python script
